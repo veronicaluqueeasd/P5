@@ -1,0 +1,594 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Manifesto</title>
+    <link rel="stylesheet" href="https://use.typekit.net/ruo8lvf.css">
+    <style>
+        html{
+            font-family: "futura-pt", sans-serif;
+            font-weight: 400; 
+            font-style: normal;
+            font-size: 25px;
+            letter-spacing: .2rem;
+        }
+
+        *{
+            box-sizing: border-box;
+            padding: 0;
+            margin: 0;
+        }
+
+        body{
+            width: 22rem;
+            margin: auto;
+            padding: 0;
+            background: rgb(243, 239, 236);
+            padding-bottom: 3rem;
+            transition: 2s;
+        }
+
+        body:hover{
+            background: rgb(86, 0, 0);
+            color: rgb(243, 239, 236);
+        }
+
+        h1{
+            font-size: 1.2rem;
+            font-weight: 400;
+            padding: 1.5rem 0 .625rem 0;
+            letter-spacing: 0.05rem;
+            margin-bottom: 0.6rem;
+            top: 0;
+            transition: 2s;
+        }
+
+        h1:hover{
+            font-size: 5.4rem;
+        }
+
+        p{
+            font-weight: bolder;
+            display: inline-block;        
+        }
+
+        #rise p:first-child{
+            padding-left: 0.8rem;
+        }
+
+        #rise p:nth-child(2){
+            padding-left: 3.2rem;
+        }
+
+        #rise p:last-child{
+            padding-left: 1.7rem;
+        }
+
+        #stand p:first-child{
+            padding-left: 9.8rem;
+        }
+
+        #stand p:nth-child(2){
+            padding-left: 0.2rem;
+        }
+
+        #stand p:last-child{
+            padding-left: 2rem;
+        }
+
+        #prove p:nth-child(2){
+            padding-left: 4rem;
+        }
+
+        #prove p:last-child{
+            padding-left: 0.4rem;
+        }
+
+        #stay p:first-child{
+            padding-left: 9.8rem;
+        }
+
+        #stay p:nth-child(2){
+            padding-left: 0.2rem;
+        }
+
+        #stay p:last-child{
+            padding-left: 5rem;
+        }
+        
+        /*try*/
+        #try p:first-child{
+            padding-left: 3.2rem;
+        }
+
+        #try p:nth-child(2){
+            padding-left: 0.3rem;
+        }
+
+        #try p:last-child{
+            padding-left: 12.33rem;
+        }
+
+        /*retry*/
+        #retry p:first-child{
+            padding-left: 0.8rem;
+        }
+
+        #retry p:nth-child(2){
+            padding-left: 0.66rem;
+        }
+
+        #retry p:nth-child(3){
+            padding-left: 0.26rem;
+        }
+
+        #retry p:last-child{
+            padding-left: 12.35rem;
+        }
+
+        /*learn*/
+        #learn p:first-child{
+            padding-left: 2.02rem;
+        }
+
+        #learn p:last-child{
+            padding-left: 6.75rem;
+        }
+
+        /*read*/
+        #read p:first-child{
+            padding-left: 4.43rem;
+        }
+
+        #read p:nth-child(2){
+            padding-left: 2.65rem;
+        }
+
+        #read p:nth-child(3){
+            padding-left: 2.2rem;
+        }
+
+        #read p:last-child{
+            padding-left: 2.7rem;
+        }
+
+        /*train*/
+        #train p:first-child{
+            padding-left: 3.2rem;
+        }
+
+        #train p:nth-child(2){
+            padding-left: 0.3rem;
+        }
+
+        #train p:nth-child(3){
+            padding-left: 6.02rem;
+        }
+
+        #train p:last-child{
+            padding-left: 3.5rem;
+        }
+
+        /*strain*/
+        #strain p:first-child{
+            padding-left: 7.5rem;
+        }
+
+        #strain p:nth-child(2){
+            padding-left: 1.848rem;
+        }
+
+        #strain p:last-child{
+            padding-left: 3.5rem;
+        }
+
+        /*vie*/
+        #vie p:first-child{
+            padding-left: 6.3rem;
+        }
+
+        #vie p:nth-child(2){
+            padding-left: 8.7rem;
+        }
+
+        #vie p:last-child{
+            padding-left: 2.7rem;
+        }
+
+        /*lead*/
+        #lead p:first-child{
+            padding-left: 2.02rem;
+        }
+
+        #lead p:last-child{
+            padding-left: 10.44rem;
+        }
+
+        /*test*/
+        #test p:first-child{
+            padding-left: 3.2rem;
+        }
+
+        #test p:nth-child(2){
+            padding-left: 3.93rem;
+        }
+
+        #test p:last-child{
+            padding-left: 0.5rem;
+        }
+
+        /*retest*/
+        #retest p:first-child{
+            padding-left: 0.8rem;
+        }
+
+        #retest p:nth-child(2){
+            padding-left: 0.66rem;
+        }
+
+        #retest p:nth-child(3){
+            padding-left: 3.93rem;
+        }
+
+        #retest p:last-child{
+            padding-left: 0.5rem;
+        }
+
+        /*protest*/
+        #protest p:nth-child(2){
+            padding-left: 0.63rem;
+        }
+
+        #protest p:nth-child(3){
+            padding-left: 3.93rem;
+        }
+
+        #protest p:last-child{
+            padding-left: 0.5rem;
+        }
+
+        /*roar*/
+        #roar p:first-child{
+            padding-left: 0.8rem;
+        }
+
+        #roar p:nth-child(2){
+            padding-left: 1.05rem;
+        }
+
+        #roar p:last-child{
+            padding-left: 5.9rem;
+        }
+
+        /*press*/
+        #press p:nth-child(2){
+            padding-left: 3.2rem;
+        }
+
+        #press p:nth-child(3){
+            padding-left: 2.68rem;
+        }
+
+        #press p:nth-child(4){
+            padding-left: 0.5rem;
+        }
+
+        #press p:last-child{
+            padding-left: 9.7rem;
+        }
+
+        /*prise*/
+        #prise p:nth-child(2){
+            padding-left: 3.2rem;
+        }
+
+        #prise p:nth-child(3){
+            padding-left: 3.9rem;
+        }
+
+        #prise p:last-child{
+            padding-left: 8.9rem;
+        }
+
+        /*print*/
+        #print p:nth-child(2){
+            padding-left: 3.205rem;
+        }
+
+        #print p:nth-child(3){
+            padding-left: 6.1rem;
+        }
+
+        #print p:last-child{
+            padding-left: 6rem;
+        }
+
+        /*edit*/
+        #edit p:first-child{
+            padding-left: 2.6rem;
+        }
+
+        #edit p:nth-child(2){
+            padding-left: 11.3rem;
+        }
+
+        #edit p:last-child{
+            padding-left: 2.43rem;
+        }
+
+        /*say*/
+        #say p:first-child{
+            padding-left: 7.5rem;
+        }
+
+        #say p:nth-child(2){
+            padding-left: 2.82rem;
+        }
+
+        #say p:last-child{
+            padding-left: 5rem;
+        }
+
+        /*proletariansin*/
+        #proletariansin p:nth-child(2){
+            padding-left: 5.22rem;
+        }
+
+        #proletariansin p:last-child{
+            padding-left: 1.6rem;
+        }
+
+        /*every*/
+        #every p:first-child{
+            padding-left: 2.6rem;
+        }
+
+        #every p:nth-child(2){
+            padding-left: 2.5rem;
+        }
+
+        #every p:nth-child(3){
+            padding-left: 0.6rem;
+        }
+
+        #every p:nth-child(4){
+            padding-left: 1.3rem;
+        }
+
+        #every p:last-child{
+            padding-left: 6.06rem;
+        }
+
+        /*land*/
+        #land p:first-child{
+            padding-left: 2.02rem;
+        }
+
+        #land p:nth-child(2){
+            padding-left: 8.4rem;
+        }
+
+        #land p:last-child{
+            padding-left: 1.78rem;
+        }
+
+        /*are*/
+        #are p:first-child{
+            padding-left: 3.8rem;
+        }
+
+        #are p:nth-child(2){
+            padding-left: 5.5rem;
+        }
+
+        #are p:last-child{
+            padding-left: 8.2rem;
+        }
+
+        /*one*/
+        #one p:first-child{
+            padding-left: 1.3rem;
+        }
+
+        #one p:nth-child(2){
+            padding-left: 9.5rem;
+        }
+
+        #one p:last-child{
+            padding-left: 6.5rem;
+        }
+
+        div:hover{
+            text-align: center;
+        }
+
+        div p{
+            transition: all 2s;
+        }
+        div:hover p{
+            padding-left: 0 !important;
+            letter-spacing: 1.8rem;
+            font-size: 1.2rem;
+            text-transform: uppercase;
+        }
+
+    </style>
+</head>
+<body>
+    <h1>manifesto</h1>
+
+    <div id="rise">
+        <p>r</p>
+        <p>i</p>
+        <p>se</p>
+    </div>
+
+    <div id="stand">
+        <p>st</p>
+        <p>an</p>
+        <p>d</p>
+    </div>
+    
+    <div id="prove">
+        <p>pro</p>
+        <p>v</p>
+        <p>e</p>
+    </div>
+
+    <div id="stay">
+        <p>st</p>
+        <p>a</p>
+        <p>y</p>
+    </div>
+
+    <div id="try">
+        <p>t</p>
+        <p>r</p>
+        <p>y</p>
+    </div>
+
+    <div id="retry">
+        <p>r</p>
+        <p>et</p>
+        <p>r</p>
+        <p>y</p>
+    </div>
+
+    <div id="learn">
+        <p>le</p>
+        <p>ar</p>
+        <p>n</p>
+    </div>
+
+    <div id="read">
+        <p>r</p>
+        <p>e</p>
+        <p>a</p>
+        <p>d</p>
+    </div>
+    
+    <div id="train">
+        <p>t</p>
+        <p>r</p>
+        <p>a</p>
+        <p>in</p>
+    </div>
+    
+    <div id="strain">
+        <p>s</p>
+        <p>tra</p>
+        <p>in</p>
+    </div>
+    
+    <div id="vie">
+        <p>v</p>
+        <p>i</p>
+        <p>e</p>
+    </div>
+    
+    <div id="lead">
+        <p>le</p>
+        <p>a</p>
+        <p>d</p>
+    </div>
+    
+    <div id="test">
+        <p>t</p>
+        <p>e</p>
+        <p>st</p>
+    </div>
+    
+    <div id="retest">
+        <p>r</p>
+        <p>et</p>
+        <p>e</p>
+        <p>st</p>
+    </div>
+    
+    <div id="protest">
+        <p>pro</p>
+        <p>t</p>
+        <p>e</p>
+        <p>st</p>
+    </div>
+    
+    <div id="roar">
+        <p>ro</p>
+        <p>a</p>
+        <p>r</p>
+    </div>
+    
+    <div id="press">
+        <p>p</p>
+        <p>r</p>
+        <p>e</p>
+        <p>s</p>
+        <p>s</p>
+    </div>
+    
+    <div id="prise">
+        <p>p</p>
+        <p>ri</p>
+        <p>s</p>
+        <p>e</p>
+    </div>
+    
+    <div id="print">
+        <p>pr</p>
+        <p>i</p>
+        <p>n</p>
+        <p>t</p>
+    </div>
+    
+    <div id="edit">
+        <p>e</p>
+        <p>di</p>
+        <p>t</p>
+    </div>
+    
+    <div id="say">
+        <p>s</p>
+        <p>a</p>
+        <p>y</p>
+    </div>
+    
+    <div id="proletariansin">
+        <p>proletari</p>
+        <p>an</p>
+        <p>s</p>
+        <p>in</p>
+    </div>
+    
+    <div id="every">
+        <p>e</p>
+        <p>v</p>
+        <p>e</p>
+        <p>r</p>
+        <p>y</p>
+    </div>
+    
+    <div id="land">
+        <p>l</p>
+        <p>an</p>
+        <p>d</p>
+    </div>
+    
+    <div id="are">
+        <p>a</p>
+        <p>r</p>
+        <p>e</p>
+    </div>
+    
+    <div id="one">
+        <p>o</p>
+        <p>n</p>
+        <p>e</p>
+    </div>
+    
+    <div id="proletarii">
+        <p>proletarii vse stran soendiny tes</p>
+    </div>
+
+</body>
+</html>
